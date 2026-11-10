@@ -1,0 +1,19 @@
+# fichiers générés à la compilation
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# créés par le jeu quand on joue
+settings.cfg
+scores.txt
+
+# éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+
+# sortie du script de génération du monde
+assets/world/_state.npz
+__pycache__/
